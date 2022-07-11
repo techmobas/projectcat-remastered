@@ -1,0 +1,117 @@
+{
+"skeleton": { "hash": "upx01bmac99L9c//VQz3HrrEDEk", "spine": "3.8.99" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "SMOKE", "parent": "root", "x": -0.02, "y": -0.04 },
+	{ "name": "TAP", "parent": "root", "y": -0.08 },
+	{ "name": "BLING", "parent": "root" }
+],
+"slots": [
+	{ "name": "SMOKE", "bone": "SMOKE" },
+	{ "name": "TAP", "bone": "TAP" },
+	{ "name": "BLING", "bone": "BLING" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"BLING": {
+				"VFX BLING/BLING_0000": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0001": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0002": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0003": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0004": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0005": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0006": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0007": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0008": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0009": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 },
+				"VFX BLING/BLING_0010": { "x": 0.5, "y": 0.5, "width": 815, "height": 827 }
+			},
+			"SMOKE": {
+				"VFX SMOKE/SMOKE_0000": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0001": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0002": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0003": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0004": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0005": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0006": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0007": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0008": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0009": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0010": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 },
+				"VFX SMOKE/SMOKE_0011": { "x": 0.02, "y": 86.84, "width": 324, "height": 255 }
+			},
+			"TAP": {
+				"VFX TAP/TAP_0002": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0003": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0004": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0005": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0006": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0007": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0008": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0009": { "y": 104.37, "width": 424, "height": 404 },
+				"VFX TAP/TAP_0010": { "y": 104.37, "width": 424, "height": 404 }
+			}
+		}
+	}
+],
+"animations": {
+	"BLING": {
+		"slots": {
+			"BLING": {
+				"attachment": [
+					{ "name": "VFX BLING/BLING_0000" },
+					{ "time": 0.0333, "name": "VFX BLING/BLING_0001" },
+					{ "time": 0.1333, "name": "VFX BLING/BLING_0002" },
+					{ "time": 0.1667, "name": "VFX BLING/BLING_0003" },
+					{ "time": 0.2, "name": "VFX BLING/BLING_0004" },
+					{ "time": 0.2667, "name": "VFX BLING/BLING_0005" },
+					{ "time": 0.3, "name": "VFX BLING/BLING_0006" },
+					{ "time": 0.3333, "name": "VFX BLING/BLING_0007" },
+					{ "time": 0.4, "name": "VFX BLING/BLING_0008" },
+					{ "time": 0.4333, "name": "VFX BLING/BLING_0009" },
+					{ "time": 0.4667, "name": "VFX BLING/BLING_0010" }
+				]
+			}
+		}
+	},
+	"SMOKE": {
+		"slots": {
+			"SMOKE": {
+				"attachment": [
+					{ "name": "VFX SMOKE/SMOKE_0000" },
+					{ "time": 0.0333, "name": "VFX SMOKE/SMOKE_0001" },
+					{ "time": 0.0667, "name": "VFX SMOKE/SMOKE_0002" },
+					{ "time": 0.1, "name": "VFX SMOKE/SMOKE_0003" },
+					{ "time": 0.1333, "name": "VFX SMOKE/SMOKE_0004" },
+					{ "time": 0.1667, "name": "VFX SMOKE/SMOKE_0005" },
+					{ "time": 0.2, "name": "VFX SMOKE/SMOKE_0006" },
+					{ "time": 0.2333, "name": "VFX SMOKE/SMOKE_0007" },
+					{ "time": 0.2667, "name": "VFX SMOKE/SMOKE_0008" },
+					{ "time": 0.3, "name": "VFX SMOKE/SMOKE_0009" },
+					{ "time": 0.3333, "name": "VFX SMOKE/SMOKE_0010" },
+					{ "time": 0.3667, "name": "VFX SMOKE/SMOKE_0011" }
+				]
+			}
+		}
+	},
+	"TAP": {
+		"slots": {
+			"TAP": {
+				"attachment": [
+					{ "name": "VFX TAP/TAP_0002" },
+					{ "time": 0.0333, "name": "VFX TAP/TAP_0003" },
+					{ "time": 0.0667, "name": "VFX TAP/TAP_0004" },
+					{ "time": 0.1, "name": "VFX TAP/TAP_0005" },
+					{ "time": 0.1333, "name": "VFX TAP/TAP_0006" },
+					{ "time": 0.1667, "name": "VFX TAP/TAP_0007" },
+					{ "time": 0.2, "name": "VFX TAP/TAP_0008" },
+					{ "time": 0.2333, "name": "VFX TAP/TAP_0009" },
+					{ "time": 0.2667, "name": "VFX TAP/TAP_0010" }
+				]
+			}
+		}
+	}
+}
+}

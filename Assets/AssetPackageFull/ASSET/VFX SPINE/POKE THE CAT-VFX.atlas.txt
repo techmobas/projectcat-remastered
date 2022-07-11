@@ -1,0 +1,230 @@
+
+POKE THE CAT-VFX.png
+size: 4096,2048
+format: RGBA4444
+filter: Linear,Linear
+repeat: none
+VFX BLING/BLING_0000
+  rotate: false
+  xy: 834, 38
+  size: 524, 503
+  orig: 815, 827
+  offset: 148, 172
+  index: -1
+VFX BLING/BLING_0001
+  rotate: false
+  xy: 2179, 299
+  size: 272, 275
+  orig: 815, 827
+  offset: 247, 303
+  index: -1
+VFX BLING/BLING_0002
+  rotate: false
+  xy: 1360, 119
+  size: 477, 422
+  orig: 815, 827
+  offset: 167, 191
+  index: -1
+VFX BLING/BLING_0003
+  rotate: false
+  xy: 1585, 576
+  size: 759, 640
+  orig: 815, 827
+  offset: 14, 114
+  index: -1
+VFX BLING/BLING_0004
+  rotate: false
+  xy: 1636, 1419
+  size: 701, 626
+  orig: 815, 827
+  offset: 44, 112
+  index: -1
+VFX BLING/BLING_0005
+  rotate: false
+  xy: 1636, 1419
+  size: 701, 626
+  orig: 815, 827
+  offset: 44, 112
+  index: -1
+VFX BLING/BLING_0006
+  rotate: false
+  xy: 819, 543
+  size: 764, 673
+  orig: 815, 827
+  offset: 10, 90
+  index: -1
+VFX BLING/BLING_0007
+  rotate: false
+  xy: 819, 543
+  size: 764, 673
+  orig: 815, 827
+  offset: 10, 90
+  index: -1
+VFX BLING/BLING_0008
+  rotate: false
+  xy: 2, 1218
+  size: 815, 827
+  orig: 815, 827
+  offset: 0, 0
+  index: -1
+VFX BLING/BLING_0009
+  rotate: false
+  xy: 2, 389
+  size: 815, 827
+  orig: 815, 827
+  offset: 0, 0
+  index: -1
+VFX BLING/BLING_0010
+  rotate: false
+  xy: 819, 1218
+  size: 815, 827
+  orig: 815, 827
+  offset: 0, 0
+  index: -1
+VFX SMOKE/SMOKE_0000
+  rotate: false
+  xy: 2339, 1593
+  size: 264, 225
+  orig: 324, 255
+  offset: 6, 0
+  index: -1
+VFX SMOKE/SMOKE_0001
+  rotate: false
+  xy: 2339, 1593
+  size: 264, 225
+  orig: 324, 255
+  offset: 6, 0
+  index: -1
+VFX SMOKE/SMOKE_0002
+  rotate: false
+  xy: 2165, 12
+  size: 268, 226
+  orig: 324, 255
+  offset: 11, 23
+  index: -1
+VFX SMOKE/SMOKE_0003
+  rotate: false
+  xy: 2165, 12
+  size: 268, 226
+  orig: 324, 255
+  offset: 11, 23
+  index: -1
+VFX SMOKE/SMOKE_0004
+  rotate: false
+  xy: 2165, 12
+  size: 268, 226
+  orig: 324, 255
+  offset: 11, 23
+  index: -1
+VFX SMOKE/SMOKE_0005
+  rotate: false
+  xy: 2339, 1820
+  size: 290, 225
+  orig: 324, 255
+  offset: 3, 27
+  index: -1
+VFX SMOKE/SMOKE_0006
+  rotate: false
+  xy: 2339, 1820
+  size: 290, 225
+  orig: 324, 255
+  offset: 3, 27
+  index: -1
+VFX SMOKE/SMOKE_0007
+  rotate: false
+  xy: 1839, 8
+  size: 324, 230
+  orig: 324, 255
+  offset: 0, 25
+  index: -1
+VFX SMOKE/SMOKE_0008
+  rotate: false
+  xy: 1839, 8
+  size: 324, 230
+  orig: 324, 255
+  offset: 0, 25
+  index: -1
+VFX SMOKE/SMOKE_0009
+  rotate: false
+  xy: 1839, 8
+  size: 324, 230
+  orig: 324, 255
+  offset: 0, 25
+  index: -1
+VFX SMOKE/SMOKE_0010
+  rotate: false
+  xy: 1839, 8
+  size: 324, 230
+  orig: 324, 255
+  offset: 0, 25
+  index: -1
+VFX SMOKE/SMOKE_0011
+  rotate: false
+  xy: 1839, 8
+  size: 324, 230
+  orig: 324, 255
+  offset: 0, 25
+  index: -1
+VFX TAP/TAP_0002
+  rotate: false
+  xy: 2435, 26
+  size: 258, 271
+  orig: 424, 404
+  offset: 69, 56
+  index: -1
+VFX TAP/TAP_0003
+  rotate: false
+  xy: 2435, 26
+  size: 258, 271
+  orig: 424, 404
+  offset: 69, 56
+  index: -1
+VFX TAP/TAP_0004
+  rotate: false
+  xy: 1839, 240
+  size: 338, 334
+  orig: 424, 404
+  offset: 26, 28
+  index: -1
+VFX TAP/TAP_0005
+  rotate: false
+  xy: 1839, 240
+  size: 338, 334
+  orig: 424, 404
+  offset: 26, 28
+  index: -1
+VFX TAP/TAP_0006
+  rotate: false
+  xy: 2, 2
+  size: 406, 385
+  orig: 424, 404
+  offset: 0, 0
+  index: -1
+VFX TAP/TAP_0007
+  rotate: false
+  xy: 2, 2
+  size: 406, 385
+  orig: 424, 404
+  offset: 0, 0
+  index: -1
+VFX TAP/TAP_0008
+  rotate: false
+  xy: 2, 2
+  size: 406, 385
+  orig: 424, 404
+  offset: 0, 0
+  index: -1
+VFX TAP/TAP_0009
+  rotate: false
+  xy: 410, 11
+  size: 422, 376
+  orig: 424, 404
+  offset: 2, 28
+  index: -1
+VFX TAP/TAP_0010
+  rotate: false
+  xy: 410, 11
+  size: 422, 376
+  orig: 424, 404
+  offset: 2, 28
+  index: -1

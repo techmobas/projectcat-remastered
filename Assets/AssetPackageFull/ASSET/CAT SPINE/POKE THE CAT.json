@@ -1,0 +1,243 @@
+{
+"skeleton": { "hash": "9SwaK6wgTYRNMF2Ps//PatuGaP0", "spine": "3.8.99" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "CAT", "parent": "root", "x": -0.44 },
+	{ "name": "HAT", "parent": "root", "rotation": -0.08 }
+],
+"slots": [
+	{ "name": "DEFAULT-CAT", "bone": "CAT" },
+	{ "name": "FOOD-CAT", "bone": "CAT" },
+	{ "name": "SPACE-CAT", "bone": "CAT" },
+	{ "name": "MEDIEVAL-CAT", "bone": "CAT" },
+	{ "name": "CANDY-CAT", "bone": "CAT" },
+	{ "name": "HAT", "bone": "HAT", "attachment": "HAT" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"CANDY-CAT": {
+				"CANDY/CANDY-1": { "x": -24.27, "y": 255.83, "width": 512, "height": 512 },
+				"CANDY/CANDY-2": { "x": -24.42, "y": 255.93, "width": 512, "height": 512 },
+				"CANDY/CANDY-3": { "x": -24.42, "y": 255.7, "width": 512, "height": 512 }
+			},
+			"DEFAULT-CAT": {
+				"Timeline 1_0000": { "path": "DEFAULT/Timeline 1_0000", "x": -24.56, "y": 255, "width": 512, "height": 512 },
+				"Timeline 1_0004": { "path": "DEFAULT/Timeline 1_0004", "x": -24.56, "y": 255, "width": 512, "height": 512 },
+				"Timeline 1_0008": { "path": "DEFAULT/Timeline 1_0008", "x": -24.56, "y": 255, "width": 512, "height": 512 }
+			},
+			"FOOD-CAT": {
+				"FOOD/FOOD-1": { "x": -24.72, "y": 255.32, "width": 512, "height": 512 },
+				"FOOD/FOOD-2": { "x": -24.61, "y": 255.19, "width": 512, "height": 512 },
+				"FOOD/FOOD-3": { "x": -24.69, "y": 254.91, "width": 512, "height": 512 }
+			},
+			"MEDIEVAL-CAT": {
+				"MEDIEVAL/MEDIEVAL-1": { "x": -24.74, "y": 255.74, "width": 512, "height": 512 },
+				"MEDIEVAL/MEDIEVAL-2": { "x": -24.77, "y": 255.9, "width": 512, "height": 512 },
+				"MEDIEVAL/MEDIEVAL-3": { "x": -24.77, "y": 256.14, "width": 512, "height": 512 }
+			},
+			"SPACE-CAT": {
+				"SPACE/SPACE-1": { "x": -24.96, "y": 256.1, "width": 512, "height": 512 },
+				"SPACE/SPACE-2": { "x": -24.95, "y": 256.1, "width": 512, "height": 512 },
+				"SPACE/SPACE-3": { "x": -25.05, "y": 256.05, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "CANDY-HAT-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "CANDY HAT/CANDY-HAT-1", "x": -15.09, "y": 259.23, "rotation": 0.08, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "CANDY-HORN-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "CANDY HAT/CANDY-HORN-2", "x": -26.87, "y": 257.25, "rotation": 0.08, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "CANDY-HORN-2",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "CANDY HAT/CANDY-HORN-1", "x": -27.49, "y": 257.37, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "DEFAULT-BUCKET-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "DEFAULT HAT/HAT 3", "x": -21.96, "y": 257.11, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "DEFAULT-BUCKET-2",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "DEFAULT HAT/HAT 2", "x": -24.55, "y": 257.11, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "DEFAULT-HAT-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "DEFAULT HAT/HAT 1", "x": -24.55, "y": 258.4, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "FOOD-BUCKET-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "FOOD HAT/FOOD-HAT-1", "x": -23.02, "y": 257.91, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "FOOD-BUCKET-2",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "FOOD HAT/FOOD-HAT-2", "x": -24.08, "y": 255.58, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "FOOD-HAT-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "FOOD HAT/FOOD-HAT-3", "x": -23.15, "y": 262.06, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "MEDIEVAL-HAT-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "MEDIEVAL HAT/MEDIEVAL-HAT-3", "x": -29.97, "y": 276.53, "rotation": 0.08, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "MEDIEVAL-HELM-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "MEDIEVAL HAT/MEDIEVAL-HELM-1", "x": -23.74, "y": 253.15, "rotation": 0.08, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "MEDIEVAL-HELM-2",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "MEDIEVAL HAT/MEDIEVAL-HELM-2", "x": -25.12, "y": 250.4, "rotation": 0.08, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "SPACE-HAT-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "SPACE HAT/SPACE-HAT-1", "x": -24.88, "y": 255.64, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "SPACE-MASK-1",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "SPACE HAT/SPACE-HAT-3", "x": -25.5, "y": 255.64, "width": 512, "height": 512 }
+			}
+		}
+	},
+	{
+		"name": "SPACE-MASK-2",
+		"attachments": {
+			"HAT": {
+				"HAT": { "name": "SPACE HAT/SPACE-HAT-2", "x": -25.32, "y": 256.42, "width": 512, "height": 512 }
+			}
+		}
+	}
+],
+"animations": {
+	"IDLE-CANDY": {
+		"slots": {
+			"CANDY-CAT": {
+				"attachment": [
+					{ "name": "CANDY/CANDY-1" },
+					{ "time": 0.1667, "name": "CANDY/CANDY-2" },
+					{ "time": 0.3, "name": "CANDY/CANDY-3" },
+					{ "time": 0.4667, "name": "CANDY/CANDY-1" },
+					{ "time": 0.7667, "name": "CANDY/CANDY-2" },
+					{ "time": 0.9, "name": "CANDY/CANDY-2" },
+					{ "time": 0.9667, "name": "CANDY/CANDY-3" },
+					{ "time": 1.1667, "name": "CANDY/CANDY-1" },
+					{ "time": 1.4, "name": "CANDY/CANDY-1" }
+				]
+			}
+		}
+	},
+	"IDLE-DEFAULT": {
+		"slots": {
+			"DEFAULT-CAT": {
+				"attachment": [
+					{ "name": "Timeline 1_0000" },
+					{ "time": 0.1667, "name": "Timeline 1_0004" },
+					{ "time": 0.3333, "name": "Timeline 1_0008" },
+					{ "time": 0.5333, "name": "Timeline 1_0004" },
+					{ "time": 0.7, "name": "Timeline 1_0000" },
+					{ "time": 1.4, "name": "Timeline 1_0000" }
+				]
+			}
+		}
+	},
+	"IDLE-FOOD": {
+		"slots": {
+			"FOOD-CAT": {
+				"attachment": [
+					{ "name": "FOOD/FOOD-1" },
+					{ "time": 0.1667, "name": "FOOD/FOOD-2" },
+					{ "time": 0.3333, "name": "FOOD/FOOD-3" },
+					{ "time": 0.5333, "name": "FOOD/FOOD-2" },
+					{ "time": 0.7, "name": "FOOD/FOOD-1" },
+					{ "time": 1.4, "name": "FOOD/FOOD-1" }
+				]
+			}
+		}
+	},
+	"IDLE-MEDIEVAL": {
+		"slots": {
+			"MEDIEVAL-CAT": {
+				"attachment": [
+					{ "name": "MEDIEVAL/MEDIEVAL-1" },
+					{ "time": 0.1667, "name": "MEDIEVAL/MEDIEVAL-2" },
+					{ "time": 0.3333, "name": "MEDIEVAL/MEDIEVAL-3" },
+					{ "time": 0.5333, "name": "MEDIEVAL/MEDIEVAL-2" },
+					{ "time": 0.7, "name": "MEDIEVAL/MEDIEVAL-1" },
+					{ "time": 1.4, "name": "MEDIEVAL/MEDIEVAL-1" }
+				]
+			}
+		}
+	},
+	"IDLE-SPACE": {
+		"slots": {
+			"SPACE-CAT": {
+				"attachment": [
+					{ "name": "SPACE/SPACE-1" },
+					{ "time": 0.1667, "name": "SPACE/SPACE-2" },
+					{ "time": 0.3333, "name": "SPACE/SPACE-3" },
+					{ "time": 0.5333, "name": "SPACE/SPACE-2" },
+					{ "time": 0.7, "name": "SPACE/SPACE-1" },
+					{ "time": 1.4, "name": "SPACE/SPACE-1" }
+				]
+			}
+		}
+	}
+}
+}
