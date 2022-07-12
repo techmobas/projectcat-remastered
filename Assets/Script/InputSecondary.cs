@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
 
-[DefaultExecutionOrder(-1)]
-public class InputManager : MonoBehaviour
+[DefaultExecutionOrder(-2)]
+public class InputSecondary : MonoBehaviour
 {   
-    public static InputManager Instance;
-    private MainTouchAction touchControls;
+    public static InputSecondary Instance;
+    private PausedAction touchControls;
 
     public delegate void StartTouchEvent(Vector2 position, float time);
     public event StartTouchEvent OnStartTouch;
@@ -20,7 +20,7 @@ public class InputManager : MonoBehaviour
             Instance = this;
         }
 
-        touchControls = new  MainTouchAction();
+        touchControls = new PausedAction();
        
     }
 
@@ -66,4 +66,3 @@ public class InputManager : MonoBehaviour
         }    
     }
 }
-

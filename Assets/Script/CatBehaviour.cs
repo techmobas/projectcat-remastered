@@ -32,11 +32,11 @@ public class CatBehaviour : MonoBehaviour
     }
 
     private void OnEnable(){
-        inputManager.OnStartTouch
+        inputManager.OnStartTouch += ReTouch;
     }
 
     private void OnDisable(){
-        inputManager.OnEndTouch
+        inputManager.OnEndTouch -= ReTouch;
     }
 
     void Start()
@@ -51,37 +51,26 @@ public class CatBehaviour : MonoBehaviour
     }
 
 
-    void Update()
-    {
-        // if(Input.GetButtonDown("Fire1")){
-        //     Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //     Vector3 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-        //     Collider2D obj = Physics2D.OverlapPoint(mousePos2D);
-        //     RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-        //     if(hit.collider != null && obj.TryGetComponent(out CatControl cat)){
-        //         cat.Tap(); 
-        //     }
-
-
-
+    void Update(){
         if (catCount >= spawnSpace.Count){
             timeManager.StopTimer();
             levelManager.GameIsOver();
             StopCoroutine("StartGameplay");
             catCount = 0;
         }
-        // if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began){
-        //     Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-
-        //     Collider2D obj = Physics2D.OverlapPoint(touchPos);
-        //     if(obj != null && obj.TryGetComponent(out CatControl cat)){
-        //         cat.Tap();  
-        //     }
-        // }
     }
 
+    //Ini adalah function untuk algoritma sentuhan.
+
     public void ReTouch(Vector2 screenPosition, float time){
-        Vector3 
+        Vector3 screenCoordinates = new Vector3(screenPosition.x, screenPosition.y, cameraMain.nearClipPlane);
+        Vector3 worldCoordinates = cameraMain.ScreenToWorldPoint(screenPosition);
+        worldCoordinates.z = 0;
+        
+        Collider2D obj = Physics2D.OverlapPoint(worldCoordinates);
+        if(obj != null && obj.TryGetComponent(out CatControl cat)){
+            cat.Tap();
+        }
     }
 
      IEnumerator StartGameplay(){
