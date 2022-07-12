@@ -39,8 +39,7 @@ public class CatBehaviour : MonoBehaviour
         inputManager.OnEndTouch -= ReTouch;
     }
 
-    void Start()
-    {
+    void Start(){
         catCount = 0;
         spawnSpace.Clear();
         foreach(Transform pos in positionList){
@@ -66,12 +65,24 @@ public class CatBehaviour : MonoBehaviour
         Vector3 screenCoordinates = new Vector3(screenPosition.x, screenPosition.y, cameraMain.nearClipPlane);
         Vector3 worldCoordinates = cameraMain.ScreenToWorldPoint(screenPosition);
         worldCoordinates.z = 0;
-        
+
         Collider2D obj = Physics2D.OverlapPoint(worldCoordinates);
         if(obj != null && obj.TryGetComponent(out CatControl cat)){
             cat.Tap();
         }
+
+        //  if (levelManager.isPaused = false){
+        //     Collider2D obj = Physics2D.OverlapPoint(worldCoordinates);
+        //         if(obj != null && obj.TryGetComponent(out CatControl cat)){
+        //         cat.Tap();
+        //     }
+        // }
+        // else if(levelManager.isPaused = true){
+        //     Collider2D obj = null;
+        // }
     }
+
+    
 
      IEnumerator StartGameplay(){
         yield return null;

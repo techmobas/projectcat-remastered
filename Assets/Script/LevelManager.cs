@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     [Header("Game Over Screen")]
-    public static bool isOver;
+    public bool isOver;
     public GameObject overScreen; 
     
 
     [Header("Pause Screen")]
-    public static bool isPaused;
+    public bool isPaused = false;
     public GameObject pauseScreen;
 
     TimeManager timeManager;
