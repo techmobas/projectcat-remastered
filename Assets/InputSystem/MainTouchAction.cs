@@ -28,7 +28,7 @@ public class @MainTouchAction : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""TouchPress"",
-                    ""type"": ""Button"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""f7f6ba86-2d68-480c-a66a-33a351198b9e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
