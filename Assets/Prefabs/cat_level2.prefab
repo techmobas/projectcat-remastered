@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3004208543111616236}
   - component: {fileID: 1526148990776187056}
   - component: {fileID: 1550164076178293492}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CatDefault
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1949948911725063855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hat0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4597747048816190131}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hat1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648423987315304377}
   - component: {fileID: 1766680870781086565}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HAT 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 4516445262794677001}
   - component: {fileID: -67938783820553597}
   - component: {fileID: 2991066882931740049}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cat_level2
   m_TagString: Cat
   m_Icon: {fileID: 0}
@@ -320,6 +320,10 @@ MonoBehaviour:
   hitPoints: 3
   hat0: {fileID: 494843326610442260}
   hat1: {fileID: 3855903119931924551}
+  smokeEffects: {fileID: 3201674636988442747, guid: 5dd642c87afb64c46bd0a559fcc6b96c,
+    type: 3}
+  starEffects: {fileID: 677733432315370619, guid: 03fc60e8aa3d8874c81cfdd7098d5699,
+    type: 3}
 --- !u!1 &5347951018180376954
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3259380182268096612}
   - component: {fileID: 3972493924569158170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HAT 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

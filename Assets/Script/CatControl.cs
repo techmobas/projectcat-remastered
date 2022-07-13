@@ -13,12 +13,20 @@ public class CatControl : MonoBehaviour
     [SerializeField] private GameObject hat0;
     [SerializeField] private GameObject hat1;
 
+    [Header("Particles")]
+    [SerializeField] private ParticleSystem smokeEffects;
+    [SerializeField] private ParticleSystem starEffects;
+
 
     // void Awake() {
     //     hitPoints++;
     // }
     void Start(){
         
+    }
+
+    public int GetHitPoints(){
+        return hitPoints;
     }
 
     public void Tap(){
@@ -52,5 +60,21 @@ public class CatControl : MonoBehaviour
         isGone = true;
         CatBehaviour.Instance.CatDestroyed(spawnPos);
         Destroy(this.gameObject);
+    }
+
+    public void PlaySmokeEffect(){
+        if(smokeEffects != null){
+            ParticleSystem instance = Instantiate(smokeEffects, transform.position, Quaternion.identity) as ParticleSystem;
+            instance.Emit(1);
+            Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
+        }
+    }
+
+    public void PlayStarsEffect(){
+        if(smokeEffects != null){
+            ParticleSystem instance = Instantiate(starEffects, transform.position, Quaternion.identity) as ParticleSystem;
+            instance.Emit(1);
+            Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
+        }
     }
 }

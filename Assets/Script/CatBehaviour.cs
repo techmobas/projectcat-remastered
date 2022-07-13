@@ -16,6 +16,7 @@ public class CatBehaviour : MonoBehaviour
     private LevelManager levelManager;
     private InputManager inputManager;
     private Camera cameraMain;
+    private AudioManager audioManager;
 
     private bool isTouching; 
 
@@ -29,6 +30,7 @@ public class CatBehaviour : MonoBehaviour
         levelManager = FindObjectOfType<LevelManager>();
         inputManager = InputManager.Instance;
         cameraMain = Camera.main;
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     private void OnEnable(){
@@ -66,24 +68,21 @@ public class CatBehaviour : MonoBehaviour
         Vector3 worldCoordinates = cameraMain.ScreenToWorldPoint(screenPosition);
         worldCoordinates.z = 0;
 
-        Collider2D obj = Physics2D.OverlapPoint(worldCoordinates);
+        if (levelManager.isPaused == false){
+        Collider2D obj = Physics2D.OverlapPoint(worldCoordinates, LayerMask.GetMask("Cat"));
         if(obj != null && obj.TryGetComponent(out CatControl cat)){
             cat.Tap();
+            if(cat.GetHitPoints() >= 1){
+                cat.PlayStarsEffect();
+            }
+            else if(cat.GetHitPoints() == 0){
+                cat.PlaySmokeEffect();
+                audioManager.PlayMeowSFX();
+            }
+            }
         }
-
-        //  if (levelManager.isPaused = false){
-        //     Collider2D obj = Physics2D.OverlapPoint(worldCoordinates);
-        //         if(obj != null && obj.TryGetComponent(out CatControl cat)){
-        //         cat.Tap();
-        //     }
-        // }
-        // else if(levelManager.isPaused = true){
-        //     Collider2D obj = null;
-        // }
     }
-
-    
-
+        
      IEnumerator StartGameplay(){
         yield return null;
         while(true){

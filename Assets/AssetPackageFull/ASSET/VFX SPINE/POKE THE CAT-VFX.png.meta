@@ -1,7 +1,274 @@
 fileFormatVersion: 2
 guid: 14682aedb905dd745b36ef3949132165
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 660083005117296807
+    second: POKE THE CAT-VFX_0
+  - first:
+      213: 1298519488666334988
+    second: POKE THE CAT-VFX_1
+  - first:
+      213: -7453374220642303479
+    second: POKE THE CAT-VFX_2
+  - first:
+      213: 1059522699167070739
+    second: POKE THE CAT-VFX_3
+  - first:
+      213: -5602636949081518772
+    second: POKE THE CAT-VFX_4
+  - first:
+      213: 4053507474250918834
+    second: POKE THE CAT-VFX_5
+  - first:
+      213: 3794650217691639633
+    second: POKE THE CAT-VFX_6
+  - first:
+      213: -8790306370189305893
+    second: POKE THE CAT-VFX_7
+  - first:
+      213: -6541208076078964470
+    second: POKE THE CAT-VFX_8
+  - first:
+      213: -3055443621396440491
+    second: POKE THE CAT-VFX_9
+  - first:
+      213: 2193656283186340111
+    second: POKE THE CAT-VFX_10
+  - first:
+      213: -292849783278136391
+    second: POKE THE CAT-VFX_11
+  - first:
+      213: 2957738412597280942
+    second: POKE THE CAT-VFX_12
+  - first:
+      213: -3989369605125633302
+    second: POKE THE CAT-VFX_13
+  - first:
+      213: 7932457410325443166
+    second: POKE THE CAT-VFX_14
+  - first:
+      213: -2897560881857695376
+    second: POKE THE CAT-VFX_15
+  - first:
+      213: -1290818136583958737
+    second: POKE THE CAT-VFX_16
+  - first:
+      213: -5628991973937434155
+    second: POKE THE CAT-VFX_17
+  - first:
+      213: -1844522983453935446
+    second: POKE THE CAT-VFX_18
+  - first:
+      213: 7439347003043252135
+    second: POKE THE CAT-VFX_19
+  - first:
+      213: 7429756844643077494
+    second: POKE THE CAT-VFX_20
+  - first:
+      213: 5369619675034895934
+    second: POKE THE CAT-VFX_21
+  - first:
+      213: 8111498270560758515
+    second: POKE THE CAT-VFX_22
+  - first:
+      213: -4080565134686652953
+    second: POKE THE CAT-VFX_23
+  - first:
+      213: 7444667668447818020
+    second: POKE THE CAT-VFX_24
+  - first:
+      213: 4971629707040896269
+    second: POKE THE CAT-VFX_25
+  - first:
+      213: 3872636074039232785
+    second: POKE THE CAT-VFX_26
+  - first:
+      213: 1543449926629865479
+    second: POKE THE CAT-VFX_27
+  - first:
+      213: 2268665371886590798
+    second: POKE THE CAT-VFX_28
+  - first:
+      213: -7373894947317496875
+    second: POKE THE CAT-VFX_29
+  - first:
+      213: -3249746731834939984
+    second: POKE THE CAT-VFX_30
+  - first:
+      213: -6943615020574208806
+    second: POKE THE CAT-VFX_31
+  - first:
+      213: 5272598515973466719
+    second: POKE THE CAT-VFX_32
+  - first:
+      213: 8602178122484537913
+    second: POKE THE CAT-VFX_33
+  - first:
+      213: -944282893458396235
+    second: POKE THE CAT-VFX_34
+  - first:
+      213: -2356543053331297679
+    second: POKE THE CAT-VFX_35
+  - first:
+      213: -6104123023254304918
+    second: POKE THE CAT-VFX_36
+  - first:
+      213: -7682546318899063181
+    second: POKE THE CAT-VFX_37
+  - first:
+      213: -7105655198994833023
+    second: POKE THE CAT-VFX_38
+  - first:
+      213: -40231589580466922
+    second: POKE THE CAT-VFX_39
+  - first:
+      213: -8920878912545865041
+    second: POKE THE CAT-VFX_40
+  - first:
+      213: -9078651311205731717
+    second: POKE THE CAT-VFX_41
+  - first:
+      213: 6478313693867239987
+    second: POKE THE CAT-VFX_42
+  - first:
+      213: 5692966590665951133
+    second: POKE THE CAT-VFX_43
+  - first:
+      213: 3254827994511925422
+    second: POKE THE CAT-VFX_44
+  - first:
+      213: 6020734266848487265
+    second: POKE THE CAT-VFX_45
+  - first:
+      213: 5476950517446703284
+    second: POKE THE CAT-VFX_46
+  - first:
+      213: -6479932573192749892
+    second: POKE THE CAT-VFX_47
+  - first:
+      213: 6080885647363102328
+    second: POKE THE CAT-VFX_48
+  - first:
+      213: 3285837293710701967
+    second: POKE THE CAT-VFX_49
+  - first:
+      213: -6950838571986931491
+    second: POKE THE CAT-VFX_50
+  - first:
+      213: 2669901880990978431
+    second: POKE THE CAT-VFX_51
+  - first:
+      213: -152978864082480276
+    second: POKE THE CAT-VFX_52
+  - first:
+      213: 3515269028477555685
+    second: POKE THE CAT-VFX_53
+  - first:
+      213: -6785540774581840218
+    second: POKE THE CAT-VFX_54
+  - first:
+      213: -1965673022039658105
+    second: POKE THE CAT-VFX_55
+  - first:
+      213: -6400995727438365798
+    second: POKE THE CAT-VFX_56
+  - first:
+      213: -4564276730289336499
+    second: POKE THE CAT-VFX_57
+  - first:
+      213: 3173928581493760987
+    second: POKE THE CAT-VFX_58
+  - first:
+      213: 7177083423835671194
+    second: POKE THE CAT-VFX_59
+  - first:
+      213: 3290903170872619482
+    second: POKE THE CAT-VFX_60
+  - first:
+      213: -6344328765208139012
+    second: POKE THE CAT-VFX_61
+  - first:
+      213: 4391987134193594783
+    second: POKE THE CAT-VFX_62
+  - first:
+      213: -3763125085436961501
+    second: POKE THE CAT-VFX_63
+  - first:
+      213: -6688684419481042541
+    second: POKE THE CAT-VFX_64
+  - first:
+      213: 566098841844992011
+    second: POKE THE CAT-VFX_65
+  - first:
+      213: 6850929000905554781
+    second: POKE THE CAT-VFX_66
+  - first:
+      213: 7565587753596631432
+    second: POKE THE CAT-VFX_67
+  - first:
+      213: 6556920763566930474
+    second: POKE THE CAT-VFX_68
+  - first:
+      213: 1226321133165892394
+    second: POKE THE CAT-VFX_69
+  - first:
+      213: 5229663656532237176
+    second: POKE THE CAT-VFX_70
+  - first:
+      213: -5767995760735563972
+    second: POKE THE CAT-VFX_71
+  - first:
+      213: 5993927646540450797
+    second: POKE THE CAT-VFX_72
+  - first:
+      213: 8098340764992413139
+    second: POKE THE CAT-VFX_73
+  - first:
+      213: -6169987330693627925
+    second: POKE THE CAT-VFX_74
+  - first:
+      213: -837723681989736705
+    second: POKE THE CAT-VFX_75
+  - first:
+      213: -3408628791375535324
+    second: POKE THE CAT-VFX_76
+  - first:
+      213: 318418715763152708
+    second: POKE THE CAT-VFX_77
+  - first:
+      213: 3121851980081338897
+    second: POKE THE CAT-VFX_78
+  - first:
+      213: -4707786525560085365
+    second: POKE THE CAT-VFX_79
+  - first:
+      213: 2064458053530288598
+    second: POKE THE CAT-VFX_80
+  - first:
+      213: -4360998733402530339
+    second: POKE THE CAT-VFX_81
+  - first:
+      213: -2026505654199488004
+    second: POKE THE CAT-VFX_82
+  - first:
+      213: 6391742379032857304
+    second: POKE THE CAT-VFX_83
+  - first:
+      213: -8718189259328698050
+    second: POKE THE CAT-VFX_84
+  - first:
+      213: -3588199871439032958
+    second: POKE THE CAT-VFX_85
+  - first:
+      213: 8809403372407483481
+    second: POKE THE CAT-VFX_86
+  - first:
+      213: 7528663816112499860
+    second: POKE THE CAT-VFX_87
+  - first:
+      213: 812056710224410616
+    second: POKE THE CAT-VFX_88
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +298,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +307,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +337,150 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: POKE THE CAT-VFX_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1664
+        width: 394
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0f942fef5192900800000000000000
+      internalID: 660083005117296807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT-VFX_1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1662
+        width: 419
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07f0e75894450210800000000000000
+      internalID: 1298519488666334988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT-VFX_2
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1810
+        width: 267
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902cf80d2ab409890800000000000000
+      internalID: -7453374220642303479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT-VFX_4
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 232
+        width: 267
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d848cf06f6f32b0800000000000000
+      internalID: -5602636949081518772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT-VFX_3
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 1786
+        width: 267
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31af053084e24be00800000000000000
+      internalID: 1059522699167070739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

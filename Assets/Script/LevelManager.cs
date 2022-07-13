@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+
+    public bool isPaused = false;
+      
     [Header("Game Over Screen")]
-    public bool isOver;
     public GameObject overScreen; 
     
 
     [Header("Pause Screen")]
-    public bool isPaused = false;
     public GameObject pauseScreen;
-
     TimeManager timeManager;
 
     void Awake(){
@@ -29,14 +29,19 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void LoadMenu(){
+        isPaused = false;
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void LoadGame(){
-        isOver = false;
+        isPaused = false;
         timeManager.ResetTimer();
         SceneManager.LoadScene("Game");
     }
 
     public void GameIsOver(){
-        isOver = true;
+        isPaused  = true;
         overScreen.SetActive(true);
         Time.timeScale = 0;
     }

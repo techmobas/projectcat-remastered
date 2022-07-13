@@ -43,4 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121b976f7e70a5046892a9ddf5a297ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPaused: 0
   overScreen: {fileID: 0}
+  pauseScreen: {fileID: 0}
