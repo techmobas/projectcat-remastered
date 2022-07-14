@@ -74,6 +74,7 @@ public class CatBehaviour : MonoBehaviour
             cat.Tap();
             if(cat.GetHitPoints() >= 1){
                 cat.PlayStarsEffect();
+                audioManager.PlayHatSFX();
             }
             else if(cat.GetHitPoints() == 0){
                 cat.PlaySmokeEffect();

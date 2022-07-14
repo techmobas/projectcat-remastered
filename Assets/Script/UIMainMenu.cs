@@ -28,7 +28,10 @@ public class UIMainMenu : MonoBehaviour
         Vector3 worldCoordinates = cameraMain.ScreenToWorldPoint(screenPosition);
         worldCoordinates.z = 0;
 
-        levelManager.LoadGame();
+        Collider2D scrn = Physics2D.OverlapPoint(worldCoordinates, LayerMask.GetMask("MainMenuScreen"));
+        if (scrn != null){
+            levelManager.LoadGame();
+        }
 
     }
 }

@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: a66b946cd84505e489e297a1d032eb19
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5164380779004927028
+    second: POKE THE CAT LOGO_0
+  - first:
+      213: -1131859469601361075
+    second: POKE THE CAT LOGO_1
+  - first:
+      213: 221368034480538819
+    second: POKE THE CAT LOGO_2
+  - first:
+      213: 4681455909780943941
+    second: POKE THE CAT LOGO_3
+  - first:
+      213: -7361772917150213065
+    second: POKE THE CAT LOGO_4
+  - first:
+      213: 5410090736647798701
+    second: POKE THE CAT LOGO_5
+  - first:
+      213: -6854835314175852374
+    second: POKE THE CAT LOGO_6
+  - first:
+      213: 2982642953884295729
+    second: POKE THE CAT LOGO_7
+  - first:
+      213: -2186516758216703376
+    second: POKE THE CAT LOGO_8
+  - first:
+      213: -8305363040417055036
+    second: POKE THE CAT LOGO_9
+  - first:
+      213: 1859772416533047708
+    second: POKE THE CAT LOGO_10
+  - first:
+      213: 2159932538502176643
+    second: POKE THE CAT LOGO_11
+  - first:
+      213: -6714976159475786754
+    second: POKE THE CAT LOGO_12
+  - first:
+      213: 757714597034594215
+    second: POKE THE CAT LOGO_13
+  - first:
+      213: -1094508717020194288
+    second: POKE THE CAT LOGO_14
+  - first:
+      213: -1491089665690147536
+    second: POKE THE CAT LOGO_15
+  - first:
+      213: 1151541717357779807
+    second: POKE THE CAT LOGO_16
+  - first:
+      213: 123984454465865678
+    second: POKE THE CAT LOGO_17
+  - first:
+      213: 8856696472783224715
+    second: POKE THE CAT LOGO_18
+  - first:
+      213: 8468952754397417543
+    second: POKE THE CAT LOGO_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +91,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +100,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +130,465 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_0
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1859
+        width: 146
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c9179d4f09ba740800000000000000
+      internalID: 5164380779004927028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1950
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43bfba2fc3da40f0800000000000000
+      internalID: -1131859469601361075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1932
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4c6d3fd05721300800000000000000
+      internalID: 221368034480538819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 480
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5447526b85fd7f040800000000000000
+      internalID: 4681455909780943941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_4
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1665
+        width: 150
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c9b24498ab5d990800000000000000
+      internalID: -7361772917150213065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_5
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1761
+        width: 147
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daff5807cd0841b40800000000000000
+      internalID: 5410090736647798701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_6
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1847
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0ceb8a99bbed0a0800000000000000
+      internalID: -6854835314175852374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1847
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132681eb6f9746920800000000000000
+      internalID: 2982642953884295729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_8
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1485
+        width: 155
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0720e03d79ee7a1e0800000000000000
+      internalID: -2186516758216703376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_9
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1521
+        width: 187
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce7845815c6dbc80800000000000000
+      internalID: -8305363040417055036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_10
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1640
+        width: 161
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99a58ac82d3fc910800000000000000
+      internalID: 1859772416533047708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 941
+        width: 642
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fda30333f99fd10800000000000000
+      internalID: 2159932538502176643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1331
+        width: 192
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb9a3ba2cc9fc2a0800000000000000
+      internalID: -6714976159475786754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_13
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1453
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af00655961f38a00800000000000000
+      internalID: 757714597034594215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_14
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1139
+        width: 241
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a517eee168fc0f0800000000000000
+      internalID: -1094508717020194288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_15
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1326
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035684469d59e4be0800000000000000
+      internalID: -1491089665690147536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_16
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1199
+        width: 102
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b572f37191bff00800000000000000
+      internalID: 1151541717357779807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_17
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 942
+        width: 243
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7cb16543b78b100800000000000000
+      internalID: 123984454465865678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_18
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1067
+        width: 105
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ff2b7648e49ea70800000000000000
+      internalID: 8856696472783224715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POKE THE CAT LOGO_19
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 941
+        width: 109
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7409c61e8a3c78570800000000000000
+      internalID: 8468952754397417543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

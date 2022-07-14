@@ -44,8 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158a0fc0292b160499278be81875f6ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meowSFX: {fileID: 0}
-  meowVolume: 1
+  sfxVolume: 1
+  meowSFX: {fileID: 8300000, guid: 70bc18c4d2475de42b5f4f24552690f5, type: 3}
+  hatSFX: {fileID: 8300000, guid: 33338b9fb5b482449aca7f49536fb7b1, type: 3}
+  bucketOneSFX: {fileID: 8300000, guid: 3285796772517b240b98a33ed5ec08af, type: 3}
+  bucketTwoSFX: {fileID: 8300000, guid: b68fd3e5ccb01304eb43da8edbc1d9f3, type: 3}
 --- !u!82 &747189729
 AudioSource:
   m_ObjectHideFlags: 0
@@ -56,7 +59,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1421066bd07ea364cac7118de90cb6cf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
