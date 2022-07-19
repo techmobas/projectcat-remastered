@@ -32,18 +32,20 @@ public class LevelManager : MonoBehaviour
     public void LoadMenu(){
         isPaused = false;
         SceneManager.LoadScene("MainMenu");
+        pauseScreen.SetActive(false);
+        overScreen.SetActive(false);
     }
 
     public void LoadGame(){
         isPaused = false;
         timeManager.ResetTimer();
         SceneManager.LoadScene("Game");
+        overScreen.SetActive(false);
     }
 
     public void GameIsOver(){
         isPaused  = true;
         overScreen.SetActive(true);
-        Time.timeScale = 0;
     }
 
     public void PauseGame(){

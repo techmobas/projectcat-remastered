@@ -53,6 +53,24 @@ public class Banner : MonoBehaviour
     public Button HideBannerButton;
     [ConditionalHide("LoadManually", true)]
     public Button DestroyBannerButton;
+    
+    private static Banner instance;
+
+    private void Awake(){
+        ManageSingleton();
+    }
+
+    private void ManageSingleton(){
+        if(instance != null){
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else{
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
 
     private void Start()
     {

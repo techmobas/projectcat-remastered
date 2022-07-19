@@ -17,11 +17,27 @@ public class AudioManager : MonoBehaviour
 
     [Header("Bucket2")]
     [SerializeField] private AudioClip bucketTwoSFX;
-   
+    
     private Camera mainCamera;
 
+    private static AudioManager instance;
+
     private void Awake() {
+        ManageSingleton();
+
         mainCamera = Camera.main;
+    }
+
+    private void ManageSingleton(){
+        if(instance != null){
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+        else{
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        
     }
 
     public void PlayMeowSFX(){
