@@ -20,7 +20,7 @@ public class AudioManager : MonoBehaviour
     
     private Camera mainCamera;
 
-    private static AudioManager instance;
+    public static AudioManager instance;
 
     private void Awake() {
         ManageSingleton();
