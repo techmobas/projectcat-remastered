@@ -63,7 +63,7 @@ TextureImporter:
       213: 8468952754397417543
     second: POKE THE CAT LOGO_19
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,6 +83,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -92,8 +94,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -114,9 +116,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -599,6 +605,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      POKE THE CAT LOGO_10: 1859772416533047708
+      POKE THE CAT LOGO_3: 4681455909780943941
+      POKE THE CAT LOGO_13: 757714597034594215
+      POKE THE CAT LOGO_18: 8856696472783224715
+      POKE THE CAT LOGO_14: -1094508717020194288
+      POKE THE CAT LOGO_0: 5164380779004927028
+      POKE THE CAT LOGO_8: -2186516758216703376
+      POKE THE CAT LOGO_1: -1131859469601361075
+      POKE THE CAT LOGO_4: -7361772917150213065
+      POKE THE CAT LOGO_11: 2159932538502176643
+      POKE THE CAT LOGO_19: 8468952754397417543
+      POKE THE CAT LOGO_6: -6854835314175852374
+      POKE THE CAT LOGO_12: -6714976159475786754
+      POKE THE CAT LOGO_2: 221368034480538819
+      POKE THE CAT LOGO_17: 123984454465865678
+      POKE THE CAT LOGO_7: 2982642953884295729
+      POKE THE CAT LOGO_15: -1491089665690147536
+      POKE THE CAT LOGO_16: 1151541717357779807
+      POKE THE CAT LOGO_5: 5410090736647798701
+      POKE THE CAT LOGO_9: -8305363040417055036
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

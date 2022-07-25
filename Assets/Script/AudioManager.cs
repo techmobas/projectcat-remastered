@@ -22,7 +22,11 @@ public class AudioManager : MonoBehaviour
 
     private static AudioManager instance;
 
-    private void Awake() {
+    // private void Awake() {
+    //     ManageSingleton();
+    // }
+
+    private void Start() {
         ManageSingleton();
     }
 
