@@ -24,8 +24,6 @@ public class AudioManager : MonoBehaviour
 
     private void Awake() {
         ManageSingleton();
-
-        mainCamera = Camera.main;
     }
 
     private void ManageSingleton(){
@@ -57,7 +55,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlayClip(AudioClip clip){
         if(clip != null){
-            Vector3 cameraPos = mainCamera.transform.position;
+            Vector3 cameraPos = Camera.main.transform.position;
             AudioSource.PlayClipAtPoint(clip, cameraPos, sfxVolume);
         }
     }

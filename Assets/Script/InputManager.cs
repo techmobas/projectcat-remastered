@@ -27,6 +27,7 @@ public class InputManager : MonoBehaviour
     public void OnEnable(){
         touchControls.Enable();
         TouchSimulation.Enable();
+        EnhancedTouchSupport.Enable();
 
         UnityEngine.InputSystem.EnhancedTouch.Touch.onFingerDown += FingerDown;
     }
@@ -34,6 +35,7 @@ public class InputManager : MonoBehaviour
     public void OnDisable(){
         touchControls.Disable();
         TouchSimulation.Disable();
+        EnhancedTouchSupport.Disable();
 
         UnityEngine.InputSystem.EnhancedTouch.Touch.onFingerDown -= FingerDown;
     }

@@ -15,7 +15,6 @@ public class CatBehaviour : MonoBehaviour
     private TimeManager timeManager;
     private LevelManager levelManager;
     private InputManager inputManager;
-    private Camera cameraMain;
     private AudioManager audioManager;
 
     private bool isTouching; 
@@ -29,7 +28,6 @@ public class CatBehaviour : MonoBehaviour
         timeManager = FindObjectOfType<TimeManager>();
         levelManager = FindObjectOfType<LevelManager>();
         inputManager = InputManager.Instance;
-        cameraMain = Camera.main;
         audioManager = FindObjectOfType<AudioManager>();
     }
 
@@ -64,8 +62,8 @@ public class CatBehaviour : MonoBehaviour
     //Ini adalah function untuk algoritma sentuhan.
 
     public void ReTouch(Vector2 screenPosition, float time){
-        Vector3 screenCoordinates = new Vector3(screenPosition.x, screenPosition.y, cameraMain.nearClipPlane);
-        Vector3 worldCoordinates = cameraMain.ScreenToWorldPoint(screenPosition);
+        Vector3 screenCoordinates = new Vector3(screenPosition.x, screenPosition.y, Camera.main.nearClipPlane);
+        Vector3 worldCoordinates = Camera.main.ScreenToWorldPoint(screenPosition);
         worldCoordinates.z = 0;
 
         if (levelManager.isPaused == false){
